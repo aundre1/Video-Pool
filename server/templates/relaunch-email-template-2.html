@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Your DJ Sets with TheVideoPool - Special 20% Discount</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #121212;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+        
+        .header {
+            position: relative;
+            text-align: center;
+            padding: 0;
+            background-color: #000;
+        }
+        
+        .header-image {
+            width: 100%;
+            display: block;
+        }
+        
+        .header-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .logo {
+            max-width: 220px;
+            margin-bottom: 20px;
+        }
+        
+        .discount-badge {
+            background: linear-gradient(135deg, #ff007a 0%, #8e44ad 100%);
+            color: white;
+            font-weight: bold;
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-size: 22px;
+            display: inline-block;
+            margin-top: 20px;
+            box-shadow: 0 4px 12px rgba(142, 68, 173, 0.5);
+        }
+        
+        .intro-section {
+            padding: 40px 30px 30px;
+            text-align: center;
+            background-color: #1a1a1a;
+            border-bottom: 1px solid #333;
+        }
+        
+        .intro-section h1 {
+            margin: 0 0 20px;
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff007a 0%, #8e44ad 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+        
+        .intro-section p {
+            font-size: 16px;
+            color: #e0e0e0;
+            margin: 0 0 15px;
+        }
+        
+        .main-content {
+            padding: 30px;
+        }
+        
+        .feature-highlight {
+            background-color: #1f1f1f;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .feature-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .feature-text {
+            padding: 25px;
+        }
+        
+        .feature-text h2 {
+            margin: 0 0 15px;
+            font-size: 22px;
+            color: #ff007a;
+            font-weight: 600;
+        }
+        
+        .feature-text p {
+            margin: 0;
+            font-size: 15px;
+            color: #cccccc;
+        }
+        
+        .benefits-section {
+            padding: 0 0 30px;
+        }
+        
+        .benefits-section h2 {
+            text-align: center;
+            font-size: 24px;
+            margin: 0 0 25px;
+            color: #ffffff;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .benefits-section h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(135deg, #ff007a 0%, #8e44ad 100%);
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .benefit-item {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff007a 0%, #8e44ad 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .benefit-icon img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .benefit-text h3 {
+            margin: 0 0 8px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        .benefit-text p {
+            margin: 0;
+            font-size: 14px;
+            color: #b0b0b0;
+        }
+        
+        .pricing-section {
+            background-color: #1a1a1a;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #333;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .pricing-section h2 {
+            text-align: center;
+            font-size: 24px;
+            margin: 0 0 25px;
+            color: #ffffff;
+        }
+        
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        
+        .price-card {
+            background-color: #252525;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+        
+        .price-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+        
+        .price-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #ffffff;
+            margin: 0 0 10px;
+        }
+        
+        .regular-price {
+            font-size: 15px;
+            color: #999;
+            text-decoration: line-through;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .discount-price {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ff007a;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        .price-features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px;
+            text-align: left;
+        }
+        
+        .price-features li {
+            color: #cccccc;
+            font-size: 14px;
+            padding: 5px 0 5px 25px;
+            position: relative;
+        }
+        
+        .price-features li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #8e44ad;
+            font-weight: bold;
+        }
+        
+        .price-button {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #ffffff !important;
+            background: linear-gradient(135deg, #ff007a 0%, #8e44ad 100%);
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .price-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(142, 68, 173, 0.5);
+        }
+        
+        .testimonial-section {
+            margin-bottom: 30px;
+        }
+        
+        .testimonial-card {
+            background-color: #1a1a1a;
+            border-radius: 12px;
+            padding: 25px;
+            position: relative;
+            border: 1px solid #333;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .testimonial-quote {
+            font-size: 18px;
+            color: #e0e0e0;
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .testimonial-quote:before {
+            content: '"';
+            font-size: 60px;
+            color: #8e44ad;
+            position: absolute;
+            top: 10px;
+            left: 15px;
+            opacity: 0.2;
+            font-family: Georgia, serif;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        
+        .author-info h4 {
+            margin: 0 0 5px;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        
+        .author-info p {
+            margin: 0;
+            font-size: 14px;
+            color: #999;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
+            border-radius: 12px;
+            padding: 40px 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        
+        .cta-shape {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(135deg, #ff007a 0%, #8e44ad 100%);
+            border-radius: 0 0 0 150px;
+            opacity: 0.3;
+            z-index: 0;
+        }
+        
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .cta-section h2 {
+            font-size: 26px;
+            font-weight: 700;
+            margin: 0 0 15px;
+            color: #ffffff;
+        }
+        
+        .cta-section p {
+            font-size: 16px;
+            color: #e0e0e0;
+            margin: 0 0 20px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .promo-code {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #252525;
+            border: 2px dashed #8e44ad;
+            border-radius: 5px;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff !important;
+            background: linear-gradient(135deg, #ff007a 0%, #8e44ad 100%);
+            border-radius: 50px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 12px rgba(142, 68, 173, 0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(142, 68, 173, 0.5);
+        }
+        
+        .expiration {
+            font-size: 14px;
+            color: #ff007a;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+        
+        .footer {
+            padding: 30px;
+            text-align: center;
+            background-color: #0f0f0f;
+            border-top: 1px solid #333;
+        }
+        
+        .social-links {
+            margin-bottom: 20px;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #252525;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background-color: #8e44ad;
+        }
+        
+        .social-links img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .footer-links {
+            margin: 15px 0;
+        }
+        
+        .footer-links a {
+            color: #b0b0b0;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 13px;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #8e44ad;
+        }
+        
+        .copyright {
+            color: #777;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .benefits-grid, .pricing-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .intro-section h1 {
+                font-size: 24px;
+            }
+            
+            .feature-text h2 {
+                font-size: 20px;
+            }
+            
+            .discount-badge {
+                font-size: 18px;
+                padding: 10px 20px;
+            }
+            
+            .cta-section h2 {
+                font-size: 22px;
+            }
+            
+            .promo-code {
+                font-size: 18px;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <img class="header-image" src="https://thevideopool.com/wp-content/uploads/2023/12/dj-crowd-header.jpg" alt="DJ Performance Visual">
+            <div class="header-overlay">
+                <img class="logo" src="https://thevideopool.com/wp-content/uploads/2023/12/VideoPool-Logo-White-with-Glow.png" alt="TheVideoPool Logo">
+                <div class="discount-badge">EXCLUSIVE: 20% OFF FOR 1 YEAR</div>
+            </div>
+        </div>
+        
+        <div class="intro-section">
+            <h1>THE NEXT EVOLUTION IN VISUALS FOR DJs</h1>
+            <p>We've reimagined TheVideoPool with cutting-edge technology and all-new features to give DJs like you the competitive edge at every performance.</p>
+            <p>Our completely rebuilt platform is faster, smarter, and packed with the tools you asked for.</p>
+        </div>
+        
+        <div class="main-content">
+            <div class="feature-highlight">
+                <img class="feature-image" src="https://thevideopool.com/wp-content/uploads/2023/12/cloud-library-feature.jpg" alt="Cloud Library Feature">
+                <div class="feature-text">
+                    <h2>NEW: CLOUD LIBRARY & FAVORITES</h2>
+                    <p>Create your perfect crate of visuals with our new Cloud Library. Save favorites, create custom playlists, and access your visual collection from any device, anywhere. Never lose track of your best visuals again.</p>
+                </div>
+            </div>
+            
+            <div class="benefits-section">
+                <h2>BUILT FOR THE MODERN DJ</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1584/1584891.png" alt="AI Icon">
+                        </div>
+                        <div class="benefit-text">
+                            <h3>AI-Powered Recommendations</h3>
+                            <p>Discover perfect visuals based on your style and preferences.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7709/7709039.png" alt="Preview Icon">
+                        </div>
+                        <div class="benefit-text">
+                            <h3>Instant Video Previews</h3>
+                            <p>Stream previews instantly without waiting for downloads.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3208/3208615.png" alt="Mobile Icon">
+                        </div>
+                        <div class="benefit-text">
+                            <h3>Mobile-Optimized Experience</h3>
+                            <p>Download content on the go with our responsive design.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2989/2989981.png" alt="Download Icon">
+                        </div>
+                        <div class="benefit-text">
+                            <h3>Bulk Download Tools</h3>
+                            <p>Save time with new bulk download features.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/9405/9405401.png" alt="Share Icon">
+                        </div>
+                        <div class="benefit-text">
+                            <h3>Social Sharing</h3>
+                            <p>Share playlists with other DJs in your network.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2916/2916315.png" alt="Support Icon">
+                        </div>
+                        <div class="benefit-text">
+                            <h3>AI Chatbot Support</h3>
+                            <p>Get instant help with our 24/7 AI assistant.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing-section">
+                <h2>MEMBERSHIP PLANS WITH 20% OFF</h2>
+                <div class="pricing-grid">
+                    <div class="price-card">
+                        <div class="price-title">Monthly</div>
+                        <span class="regular-price">$34.99/month</span>
+                        <span class="discount-price">$27.99/month</span>
+                        <ul class="price-features">
+                            <li>200 downloads per month</li>
+                            <li>Full HD & 4K content</li>
+                            <li>Cloud library access</li>
+                            <li>Save $84 per year</li>
+                        </ul>
+                        <a href="https://thevideopool.com/register?plan=monthly&promo=RELAUNCH20" class="price-button">Select</a>
+                    </div>
+                    
+                    <div class="price-card">
+                        <div class="price-title">Quarterly</div>
+                        <span class="regular-price">$99.99/quarter</span>
+                        <span class="discount-price">$79.99/quarter</span>
+                        <ul class="price-features">
+                            <li>250 downloads per month</li>
+                            <li>Full HD & 4K content</li>
+                            <li>Cloud library access</li>
+                            <li>Save $80 per year</li>
+                        </ul>
+                        <a href="https://thevideopool.com/register?plan=quarterly&promo=RELAUNCH20" class="price-button">Select</a>
+                    </div>
+                    
+                    <div class="price-card">
+                        <div class="price-title">Annual</div>
+                        <span class="regular-price">$329.99/year</span>
+                        <span class="discount-price">$260.69/year</span>
+                        <ul class="price-features">
+                            <li>300 downloads per month</li>
+                            <li>Full HD & 4K content</li>
+                            <li>Cloud library access</li>
+                            <li>Save $69.30 per year</li>
+                        </ul>
+                        <a href="https://thevideopool.com/register?plan=annual&promo=RELAUNCH20" class="price-button">Select</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-section">
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">I've been using TheVideoPool for years, but this new version is on another level. The recommendation system knows what I need before I do, and the instant previews save me so much time when building my sets.</p>
+                    <div class="testimonial-author">
+                        <img class="author-avatar" src="https://thevideopool.com/wp-content/uploads/2023/12/dj-testimonial.jpg" alt="DJ Sarah Mitchell">
+                        <div class="author-info">
+                            <h4>DJ Sarah Mitchell</h4>
+                            <p>Resident DJ, Electric Nightclub NYC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature-highlight">
+                <img class="feature-image" src="https://thevideopool.com/wp-content/uploads/2023/12/responsive-device-feature.jpg" alt="Multi-Device Access">
+                <div class="feature-text">
+                    <h2>ACCESS ON ANY DEVICE</h2>
+                    <p>Whether you're in the studio on your laptop, browsing on your tablet, or making last-minute additions on your phone at the venue, the new TheVideoPool works seamlessly across all your devices.</p>
+                </div>
+            </div>
+            
+            <div class="pricing-section" style="margin-top: 30px;">
+                <h2>TRY BEFORE YOU BUY</h2>
+                <div style="background-color: #252525; border-radius: 10px; padding: 20px; text-align: center; border: 1px solid #333; margin-bottom: 30px;">
+                    <div style="font-size: 20px; font-weight: 600; color: #ffffff; margin: 0 0 10px;">Free Trial</div>
+                    <span style="font-size: 24px; font-weight: 700; color: #ff007a; margin-bottom: 15px; display: block;">$0.00</span>
+                    <ul style="list-style: none; padding: 0; margin: 0 0 20px; text-align: left;">
+                        <li style="color: #cccccc; font-size: 14px; padding: 5px 0 5px 25px; position: relative;">✓ 1 download per month</li>
+                        <li style="color: #cccccc; font-size: 14px; padding: 5px 0 5px 25px; position: relative;">✓ Preview all content</li>
+                        <li style="color: #cccccc; font-size: 14px; padding: 5px 0 5px 25px; position: relative;">✓ Limited to 6 months</li>
+                        <li style="color: #cccccc; font-size: 14px; padding: 5px 0 5px 25px; position: relative;">✓ SD quality videos only</li>
+                    </ul>
+                    <a href="https://thevideopool.com/register?plan=free-trial" style="display: inline-block; padding: 12px 25px; font-size: 14px; font-weight: 600; color: #ffffff; background-color: #333; border-radius: 50px; text-decoration: none;">Start Free Trial</a>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <div class="cta-shape"></div>
+                <div class="cta-content">
+                    <h2>CLAIM YOUR 20% DISCOUNT TODAY</h2>
+                    <p>As a valued contact in our database, we're offering you an exclusive 20% discount on any membership plan for a full year.</p>
+                    <div class="promo-code">RELAUNCH20</div>
+                    <p>Use this code at checkout to redeem your discount.</p>
+                    <a href="https://thevideopool.com/register?promo=RELAUNCH20" class="cta-button">JOIN NOW & SAVE 20%</a>
+                    <p class="expiration">Limited time offer: Expires May 31, 2025</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="social-links">
+                <a href="https://facebook.com/thevideopool"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+                <a href="https://instagram.com/thevideopool"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+                <a href="https://twitter.com/thevideopool"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+            </div>
+            
+            <div class="footer-links">
+                <a href="https://thevideopool.com/privacy">Privacy Policy</a>
+                <a href="https://thevideopool.com/terms">Terms of Service</a>
+                <a href="https://thevideopool.com/contact">Contact Us</a>
+                <a href="https://thevideopool.com/unsubscribe">Unsubscribe</a>
+            </div>
+            
+            <p class="copyright">© 2025 TheVideoPool. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
